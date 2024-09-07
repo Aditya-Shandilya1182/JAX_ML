@@ -1,5 +1,5 @@
 import jax.numpy as jnp
-from jax import grad, jit, value_and_grad
+from jax import grad
 
 class LinearRegression:
     def __init__(self, input_dim, learning_rate=0.01, seed=42):
